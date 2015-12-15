@@ -1,0 +1,8 @@
+checkout
+update
+cleanup
+add
+deleteDir
+deleteFile
+commit
+revert

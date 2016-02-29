@@ -1,0 +1,70 @@
+All Component Failures:
+1.  objects/OpportunityTeamMember.object -- Error: An unexpected error occurred. Please include this ErrorId if you contact support: 1686370405-25531 (1283258561)
+2.  managedTopics/DevOps.managedTopics -- Error: Cannot delete all managed topics; They must be deleted individually
+3.  permissionsets/Garage_Developer.permissionset -- Error: This permission set is assigned to one or more users. You can only delete permission sets that aren't assigned to users. : Lakshmi Anusha.
+4.  sites/DevOps.site -- Error: insufficient access rights on cross-reference id
+5.  sharingRules/Speaker__c.sharingRules -- Error: This custom object is used by another feature. Remove the usage and try again. : Apex Trigger - 01q280000001wq0. This custom object is used by another feature. Remove the usage and try again. : Apex Class - TestRejectDoubleBooking. This custom object is used by another feature. Remove the usage and try again. : Apex Class - SpeakerControllerExtension. This custom object is used by another feature. Remove the usage and try again. : Apex Class - SendReminderEmail.
+6.  networks/DevOps.network -- Error: invalid parameter value
+7.  sharingRules/Hotel__c.sharingRules -- Error: This custom object is used by another feature. Remove the usage and try again. : Apex Class - HotelRemoter.
+8.  sharingRules/Session__c.sharingRules -- Error: This custom object is used by another feature. Remove the usage and try again. : Apex Trigger - 01q280000001wqA. This custom object is used by another feature. Remove the usage and try again. : Apex Trigger - 01q280000001wq0. This custom object is used by another feature. Remove the usage and try again. : Apex Class - TestRejectDoubleBooking.
+9.  siteDotComSites/DevOps1.site -- Error: insufficient access rights on cross-reference id
+10.  permissionsets/Account_Rating.permissionset -- Error: This permission set is assigned to one or more users. You can only delete permission sets that aren't assigned to users. : Lakshmi Anusha.
+11.  sharingRules/Campsite__c.sharingRules -- Error: Your attempt to delete Campsite could not be completed because it is associated with the following relationships with other objects.: Campsite Reservation.Campsite
+12.  classes/MyContactListController.cls -- Error: This apex class is referenced elsewhere in salesforce.com.  Remove the usage and try again. : Lightning Component Definition - 0Ad280000000fv3.
+13.  profiles/DevOps Profile.profile -- Error: cannot delete profile
+14.  profiles/Guest.profile -- Error: cannot delete profile
+15.  profiles/CMM System Administrator.profile -- Error: cannot delete profile in use
+16.  approvalProcesses/Account.Approve_New_Account.approvalProcess -- Error: You can't delete an active approval process. You must first deactivate the approval process.
+17.  approvalProcesses/Case.Case_Escalation.approvalProcess -- Error: You can't delete an active approval process. You must first deactivate the approval process.
+18.  approvalProcesses/Account.TestApproval.approvalProcess -- Error: You can't delete an active approval process. You must first deactivate the approval process.
+19.  flowDefinitions/Sample.flowDefinition -- Error: insufficient access rights on cross-reference id
+20.  flowDefinitions/TestFlow.flowDefinition -- Error: insufficient access rights on cross-reference id
+21.  flowDefinitions/Opportunity_Management.flowDefinition -- Error: insufficient access rights on cross-reference id
+22.  flowDefinitions/New_Customer_Flow.flowDefinition -- Error: insufficient access rights on cross-reference id
+23.  tabs/Trail__c.tab -- Error: id does not exist
+24.  tabs/Vehicle__c.tab -- Error: id does not exist
+25.  tabs/TestObject__c.tab -- Error: id does not exist
+26.  tabs/Project__c.tab -- Error: id does not exist
+27.  objects/QuickText.object -- Error: The CustomObject called 'QuickText' is standard and cannot be deleted
+28.  objects/OpportunityTeamMember.object -- Error: The CustomObject called 'OpportunityTeamMember' is standard and cannot be deleted
+29.  roles/Chief_Marketing_Manager.role -- Error: Your attempt to delete the role Chief Marketing Manager could not be completed because users are currently assigned to that role or at least one role reports to that role.: User: Lakshmi Anusha, Role: Marketing User
+30.  roles/Marketing_User.role -- Error: Your attempt to delete the role Marketing User could not be completed because users are currently assigned to that role or at least one role reports to that role.: User: geetha
+31.  roles/Chief_Marketing_Officer.role -- Error: Your attempt to delete the role Chief Marketing Officer could not be completed because users are currently assigned to that role or at least one role reports to that role.: User: Pankaj Guptha, Role: Chief Marketing Manager
+32.  queues/Booyah.queue -- Error: Your attempt to delete the queue could not be completed because it is used by the following areas:: Assignment Rule: Assign Booyah
+33.  pages/CommunitiesLanding.page -- Error: This visualforce page is referenced elsewhere in salesforce.com.  Remove the usage and try again. : Site - DevOps.
+34.  pages/FileNotFound.page -- Error: This visualforce page is referenced elsewhere in salesforce.com.  Remove the usage and try again. : Site - DevOps.
+35.  pages/CommunitiesSelfReg.page -- Error: This visualforce page is referenced elsewhere in salesforce.com.  Remove the usage and try again. : Site - DevOps.
+36.  pages/Exception.page -- Error: This visualforce page is referenced elsewhere in salesforce.com.  Remove the usage and try again. : Site - DevOps.
+37.  pages/BandwidthExceeded.page -- Error: This visualforce page is referenced elsewhere in salesforce.com.  Remove the usage and try again. : Site - DevOps.
+38.  pages/CommunitiesLogin.page -- Error: This visualforce page is referenced elsewhere in salesforce.com.  Remove the usage and try again. : Site - DevOps. This visualforce page is referenced elsewhere in salesforce.com.  Remove the usage and try again. : Site - DevOps. This visualforce page is referenced elsewhere in salesforce.com.  Remove the usage and try again. : Site - DevOps.
+39.  pages/OpportunityStageTips.page -- Error: The page you have tried to delete is currently being referenced by a page, custom link, button, web tab, dashboard, SoftPhone layout or custom sidebar component. Please delete the reference before deleting the page.
+40.  layouts/Account-Dealer.layout -- Error: In field: field - no CustomField named Account.Wholesaler__c found (line 49, column 26)
+41.  layouts/Wholesaler__c-Wholesaler Layout.layout -- Error: In field: relatedList - no CustomField named Account.Wholesaler__c found (line 109, column 19)
+42.  applications/standard__Marketing.app -- Error: invalid cross reference id
+43.  applications/standard__Platform.app -- Error: invalid cross reference id
+44.  applications/standard__Sales.app -- Error: invalid cross reference id
+45.  applications/standard__Service.app -- Error: invalid cross reference id
+46.  applications/standard__Content.app -- Error: invalid cross reference id
+47.  applications/standard__Sites.app -- Error: invalid cross reference id
+48.  applications/standard__AppLauncher.app -- Error: invalid cross reference id
+49.  applications/standard__Chatter.app -- Error: invalid cross reference id
+50.  applications/standard__Community.app -- Error: invalid cross reference id
+51.  applications/standard__ServiceConsole.app -- Error: invalid cross reference id
+52.  workflows/Wholesaler__c.workflow (Wholesaler__c.Send Email when 150%25 Target Achieved) -- Error: In field: name - no WorkflowAlert named Wholesaler__c.Target found (line 55, column 18)
+53.  workflows/Wholesaler__c.workflow (Wholesaler__c.Target) -- Error: In field: template - no EmailTemplate named unfiled$public/Congrats_Template found (line 3, column 13)
+54.  approvalProcesses/Campaign.Campaign_Approval_Process.approvalProcess -- Error: The approval process references the workflow action FieldUpdate Campaign_update, which doesn't exist for the Campaign object. (line 50, column 17)
+55.  objectTranslations/Account-en_US.objectTranslation -- Error: In field: fullName - no CustomField named Account.Business_Till_Date__c found (line 486, column 13)
+56.  objectTranslations/Wholesaler__c-en_US.objectTranslation -- Warning: Couldn't locate layout section:Business Information in layout:Wholesaler Layout (line 57, column 19)
+57.  objectTranslations/Contact-en_US.objectTranslation -- Error: In field: fullName - no CustomField named Contact.Age__c found (line 291, column 13)
+58.  objectTranslations/Wholesaler__c-en_US.objectTranslation -- Warning: Couldn't locate layout section:Custom Links in layout:Wholesaler Layout (line 61, column 19)
+59.  triggers/updateWholesaler.trigger -- Error: Invalid field wholesaler__c for SObject Account (line 7, column 69)
+60.  triggers/createBilling.trigger -- Error: No such column 'Billing_Mode__c' on entity 'Opportunity'. If you are attempting to use a custom field, be sure to append the '__c' after the custom field name. Please reference your WSDL or the describe call for the appropriate names. (line 10, column 25)
+61.  profiles/Marketing Head.profile -- Error: Unknown user permission: ApproveContract
+62.  permissionsets/test.permissionset -- Error: In field: field - no CustomField named Account.Business_Till_Date__c found
+63.  profiles/Sales Head.profile -- Error: Unknown user permission: ApproveContract
+64.  appMenus/Salesforce1.appMenu -- Error: Invalid app: Field_Sales_App of type CustomTab
+65.  layouts/Account-Account Layout.layout -- Error: invalid cross reference id
+66.  layouts/Contact-Contact Layout.layout -- Error: invalid cross reference id
+67.  layouts/Global-Global Layout.layout -- Error: invalid cross reference id
+68.  layouts/Task-Task Layout.layout -- Error: invalid cross reference id
+69.  package.xml -- Error: Unknown type name '' specified in package.xml
